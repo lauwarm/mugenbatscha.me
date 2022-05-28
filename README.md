@@ -1,0 +1,2 @@
+# mugenbatscha.me
+Landing Page
