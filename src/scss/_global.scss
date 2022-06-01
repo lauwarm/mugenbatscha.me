@@ -21,8 +21,9 @@ body {
 }
 
 a {
-    transition: 0.1s linear;
-
+    all: unset;
+    transition: 0.5s linear;
+    color: black;
     &:hover {
         color: $primary;
     }
@@ -62,4 +63,12 @@ h2 {
     img {
         max-width: 200px;
     }
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
 }
