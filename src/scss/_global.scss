@@ -20,6 +20,7 @@ body {
 
 a {
     all: unset;
+    width: 15rem;
     transition: 0.5s linear;
     &:hover {
         color: $primary;
@@ -34,6 +35,7 @@ p {
         margin-bottom: 0;
     }
     all: unset;
+    margin-left: 1rem;
 }
 
 h1, h2 {
@@ -77,8 +79,11 @@ h1, h2 {
 
 .social-button {
     color: $defaultFont;
+   // background-color: $day-background-social-button;
     cursor: pointer;
-
+//    width: 15rem;
+    margin: 1rem;
+//    padding: 1rem;
 }
 
 @media (prefers-color-scheme: light) {
