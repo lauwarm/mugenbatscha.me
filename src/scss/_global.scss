@@ -21,7 +21,6 @@ body {
 a {
     all: unset;
     transition: 0.5s linear;
-    color: black;
     &:hover {
         color: $primary;
     }
@@ -73,7 +72,7 @@ h1, h2 {
 }
 
 .social-button {
-    color: black;
+    color: $defaultFont;
     cursor: pointer;
 
 }
