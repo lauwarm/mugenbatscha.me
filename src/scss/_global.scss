@@ -37,6 +37,7 @@ p {
     }
   */  
   all: unset;
+  
 }
 
 h1, h2 {
@@ -58,17 +59,25 @@ h1, h2 {
     transition: 0.5s linear;
 }
 
-.social-button {
+.social {
     color: $day-background-social-button;
     cursor: pointer;
-    justify-content: left;
     display: flex;
+    flex-direction: column;
+    justify-content: left;
     margin: 1rem;
-//    padding: 1rem;
+}
+
+.social-button {
+    all: inherit;
+}
+
+.social-button-icon {
+    all: inherit;
 }
 
 .social-button-text {
-    margin-left: 1rem;
+    margin-left: 25px;
 }
 
 @media (prefers-color-scheme: light) {
