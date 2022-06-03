@@ -90,10 +90,24 @@ h1, h2 {
     body {
         background-color: $day;
     }
+    .title {
+        transition: 0.5s linear;
+        color: $day-text;
+    }
+    .social-button {
+        color: $day-background-social-button;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: $night;
+        background-color: $night-background;
+    }
+    .title {
+        transition: 0.5s linear;
+        color: $night-text;
+    }
+    .social-button {
+        color: $night-background-social-button;
     }
 }
