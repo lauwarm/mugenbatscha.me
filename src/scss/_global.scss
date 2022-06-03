@@ -11,17 +11,17 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 2rem;
     background-color: $day-background;
     color: $day-text;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    //-webkit-font-smoothing: antialiased;
+    //-moz-osx-font-smoothing: grayscale;
     transition: 0.5s linear;
 }
 
 a {
     all: unset;
-    width: 15rem;
+    //width: 15rem;
     transition: 0.5s linear;
     &:hover {
         color: $primary;
@@ -29,14 +29,14 @@ a {
 }
 
 p {
-    margin: 2rem 0;
-    line-height: 1.4em;
-
+ //   margin: 1.6rem;
+    //line-height: 1.4em;
+/*
     &:last-of-type {
         margin-bottom: 0;
     }
-    all: unset;
-    margin-left: 1rem;
+  */  
+  all: unset;
 }
 
 h1, h2 {
@@ -44,7 +44,6 @@ h1, h2 {
     max-width: 100%;
     line-height: 1.1em;
 }
-
 
 .flex-container {
     display: flex;
@@ -62,9 +61,14 @@ h1, h2 {
 .social-button {
     color: $day-background-social-button;
     cursor: pointer;
-//    width: 15rem;
+    justify-content: left;
+    display: flex;
     margin: 1rem;
 //    padding: 1rem;
+}
+
+.social-button-text {
+    margin-left: 1rem;
 }
 
 @media (prefers-color-scheme: light) {
