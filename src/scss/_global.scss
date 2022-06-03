@@ -88,6 +88,7 @@ h1, h2 {
 
 @media (prefers-color-scheme: light) {
     body {
+        transition: 0.5s linear;
         background-color: $day;
     }
     .title {
@@ -101,6 +102,7 @@ h1, h2 {
 
 @media (prefers-color-scheme: dark) {
     body {
+        transition: 0.5s linear;
         background-color: $night-background;
     }
     .title {
