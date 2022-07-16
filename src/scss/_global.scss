@@ -21,7 +21,6 @@ body {
 
 a {
     all: unset;
-    //width: 15rem;
     transition: 0.5s linear;
     &:hover {
         color: $primary;
@@ -29,18 +28,10 @@ a {
 }
 
 p {
- //   margin: 1.6rem;
-    //line-height: 1.4em;
-/*
-    &:last-of-type {
-        margin-bottom: 0;
-    }
-  */  
-  all: unset;
-  
+    all: unset;
 }
 
-h1, h2 {
+h1 {
     margin-bottom: 4rem;
     max-width: 100%;
     line-height: 1.1em;
@@ -91,6 +82,13 @@ h1, h2 {
     .social-button {
         color: $day-background-social-button;
     }
+    a {
+        all: unset;
+        transition: 0.5s linear;
+        &:hover {
+            color: $day-a;
+        }
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -102,5 +100,12 @@ h1, h2 {
     }
     .social-button {
         color: $night-background-social-button;
+    }
+    a {
+        all: unset;
+        transition: 0.5s linear;
+        &:hover {
+            color: $night-a;
+        }
     }
 }
