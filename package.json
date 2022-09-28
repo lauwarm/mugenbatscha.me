@@ -41,6 +41,6 @@
     "posthtml-cli": "^0.10.0",
     "posthtml-inline-favicon": "^0.1.2",
     "posthtml-modules": "^0.8.0",
-    "stylelint": "^14.6.0"
+    "stylelint": "^14.13.0"
   }
 }
